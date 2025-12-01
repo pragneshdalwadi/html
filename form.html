@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Only Characters & Numbers</title>
+</head>
+<body>
+
+<form >
+
+    <label>Enter Username:</label><br>
+    <input type="text"  pattern="[A-Za-z]+" required><br><br>
+
+    <label>Enter Password:</label><br>
+    <input type="password" pattern="[0-9]+" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" placehold er="Enter Email" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" value="male" id="male" name="Gender" required>
+    <label for="male">Male</label>
+
+    <input type="radio" value="female" id="female" name="Gender">
+    <label for="female">Female</label>
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
