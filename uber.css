@@ -67,53 +67,41 @@ ul li a:hover{
 
 .text{
     margin-top: 120px;
-    width: 45%;
+    margin-left: 150px;
 }
 h1{
     font-size: 70px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     color: black;
+    margin-left: 20px;
 }
 .div1{
     width: 100%;
     padding: 50px;
     border: 4px solid white;
-    border-radius: 6px;
+    border-radius: 0.2px;
     margin-top: 10px;
 
 }
 .right{
-    width: 45%;
+    width: 50%;
     background: white;
-    border-radius: 12px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 50px;
+    
 }
 
 .right img{
-    width: 100%;
-    border-radius: 10px;
+    width: 140%;
+    border-radius: 60px;
     overflow: hidden;
     position: relative;
+    padding: 50px;
 }
 a:hover{
      color: black;
 }
 
-.schedule{
-    position: absolute;
-    bottom: 50px;
-    right: 20px;
-    padding: 10px 20px;
-    background: white;
-    border: none;
-    border-radius: 20px;
-    font-size: 15px;
-    color: black;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    cursor: pointer;
-    margin-right: 100px;
-    margin-bottom: 100px;
-}
 
 .p{
     position: absolute;
@@ -126,68 +114,59 @@ a:hover{
     margin-bottom: 100px;
 }
 
-.blur-layer{
-    position: absolute;
-    bottom: 0;
-    width: 38%;
-    height: 15%;
-    background: rgba(255,255,255,0.6);
-    backdrop-filter: blur(10px);
-    border: none;
-    border-radius: 100px;
-    margin-bottom: 105px;
+.left1{
+    width: 45%;
 }
-    h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        max-width: 2000px;
-        max-height: fit-content;
-    }
+.left1 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
-    .card {
-        background: white;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
-        
-    }
+.left1 p{
+    color: #555;
+    margin: 10px 0 30px;
+}
+h2{
+    font-size: 50px;
+    margin-left: 130px;
+    padding: 10px;
 
-    .card img {
-        width: 100px;
-        margin-bottom: 10px;
-        display: flexbox;
-        margin-left: 350px;
-        height: 50px;
-        
-    }
+}
+.container1{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 100%;
+     margin-top: 15px;
+     gap: 20px;
+     justify-content: center;
+    
+}
+.container1 .card{
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+     background-color: #F3F3F3;
+}    
 
-    .title {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 8px;
-    }
+.card h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card h6{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.container1 button{
+   margin-top: 20px;
+   border-radius: 30px;
+   padding: 10px;
+}
 
-    .text {
-        font-size: 14px;
-        color: #555;
-        margin-bottom: 15px;
-    }
-
-    .btn {
-        background: #e0e0e0;
-        padding: 8px 18px;
-        border-radius: 20px;
-        text-decoration: none;
-        font-size: 14px;
-        color: black;
-    }
     .symbol {
         image-resolution: inherit;
         margin-bottom: 20px;
@@ -508,6 +487,9 @@ input{
     display: block;
     margin-bottom: 15px;
 } 
+span{
+    margin-left: 10px;
+}
 
 
 
@@ -525,4 +507,10 @@ footer{
     margin-left: 90px;
     gap: 90px;
     
+}
+.icon3{
+    display: flex;
+    margin-left: 150px;
+gap: 30px;
+
 }
